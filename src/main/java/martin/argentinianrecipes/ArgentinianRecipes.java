@@ -13,6 +13,7 @@ import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 
 public class ArgentinianRecipes implements ModInitializer {
+
     public static final String MOD_ID = "argentinian-recipes";
 
     // This logger is used to write text to the console and the log file.
@@ -33,13 +34,17 @@ public class ArgentinianRecipes implements ModInitializer {
 
     private void registerMobLoot() {
         LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
-            if (!source.isBuiltin()) return;
+            if (!source.isBuiltin()) {
+                return;
+            }
 
             String keyStr = key.toString();
-            if (keyStr.contains("minecraft:entities/cow")
+            if ((keyStr.contains("minecraft:entities/cow")
                     || keyStr.contains("minecraft:entities/pig")
-                    || keyStr.contains("minecraft:entities/sheep")) {
-
+                    || keyStr.contains("minecraft:entities/sheep")
+                    || keyStr.contains("minecraft:entities/hoglin"))
+                    && !keyStr.contains("piglin")) {
+                LOGGER.info(keyStr);
                 tableBuilder.pool(fatPool());
             }
         });
