@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "food",
+  "ingredients": [
+    "#argentinian-recipes:cooked_sausages",
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "argentinian-recipes:choripan"
+  }
+}

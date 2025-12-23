@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "food",
+  "pattern": [
+    " F ",
+    "###"
+  ],
+  "key": {
+    "F": "argentinian-recipes:fat",
+    "#": "minecraft:wheat"
+  },
+  "result": {
+    "id": "argentinian-recipes:torta_frita"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "group": "food",
+  "ingredient": "argentinian-recipes:raw_sausage_lamb",
+  "result": {
+    "id": "argentinian-recipes:cooked_sausage_lamb"
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

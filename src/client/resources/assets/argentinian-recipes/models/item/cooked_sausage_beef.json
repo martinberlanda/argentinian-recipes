@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "argentinian-recipes:item/cooked_sausage_beef"
+  }
+}

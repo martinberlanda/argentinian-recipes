@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "id": "argentinian-recipes:fat",
+      "count": 1
+    },
+    "title": {
+    "translate": "advancement.argentinian_recipes.sausages.title"
+    },
+    "description": {
+      "translate": "advancement.argentinian_recipes.sausages.description"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_fat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "argentinian-recipes:fat"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "argentinian-recipes:raw_sausage_beef",
+      "argentinian-recipes:raw_sausage_pork",
+      "argentinian-recipes:raw_sausage_chicken",
+      "argentinian-recipes:raw_sausage_lamb"
+    ]
+  }
+}

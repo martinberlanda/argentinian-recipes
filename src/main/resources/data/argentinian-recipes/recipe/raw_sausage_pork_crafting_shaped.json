@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "food",
+  "pattern": [
+    "FFF",
+    "FSP",
+    "PPP"
+  ],
+  "key": {
+    "F": "argentinian-recipes:fat",
+    "S": "minecraft:string",
+    "P": "minecraft:porkchop"
+  },
+  "result": {
+    "id": "argentinian-recipes:raw_sausage_pork",
+    "count": 8
+  },
+  "show_notification": true
+}
