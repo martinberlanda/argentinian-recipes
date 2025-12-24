@@ -1,9 +1,9 @@
 {
   "type": "minecraft:campfire_cooking",
   "group": "food",
-  "ingredient": "argentinian-recipes:raw_sausage_lamb",
+  "ingredient": "argentinian-recipes:raw_sausage",
   "result": {
-    "id": "argentinian-recipes:cooked_sausage_lamb"
+    "id": "argentinian-recipes:cooked_sausage"
   },
   "experience": 0.35,
   "cookingtime": 600

@@ -1,24 +1,13 @@
 {
   "item.argentinian-recipes.fat": "Animal Fat",
 
-  "item.argentinian-recipes.raw_sausage_beef": "Raw Beef Sausage",
-  "item.argentinian-recipes.cooked_sausage_beef": "Cooked Beef Sausage",
-
-  "item.argentinian-recipes.raw_sausage_pork": "Raw Pork Sausage",
-  "item.argentinian-recipes.cooked_sausage_pork": "Cooked Pork Sausage",
-
-  "item.argentinian-recipes.raw_sausage_lamb": "Raw Lamb Sausage",
-  "item.argentinian-recipes.cooked_sausage_lamb": "Cooked Lamb Sausage",
-
-  "item.argentinian-recipes.raw_sausage_chicken": "Raw Chicken Sausage",
-  "item.argentinian-recipes.cooked_sausage_chicken": "Cooked Chicken Sausage",
+  "item.argentinian-recipes.raw_sausage": "Raw Sausage",
+  "item.argentinian-recipes.cooked_sausage": "Cooked Sausage",
 
   "item.argentinian-recipes.choripan": "Choripán",
   "item.argentinian-recipes.torta_frita": "Torta Frita",
 
-  "tag.item.argentinian-recipes.cooked_sausages": "Cooked Sausages",
-  "tag.item.argentinian-recipes.raw_sausages": "Raw Sausages",
-
+  "tag.item.argentinian-recipes.sausage_meat": "Sausage Meat",
 
   "advancement.argentinian_recipes.sausages.title": "Sausage Maker",
   "advancement.argentinian_recipes.sausages.description": "You learned how to prepare raw sausages."

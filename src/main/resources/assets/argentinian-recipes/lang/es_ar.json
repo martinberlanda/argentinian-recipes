@@ -1,23 +1,13 @@
 {
   "item.argentinian-recipes.fat": "Grasa Animal",
 
-  "item.argentinian-recipes.raw_sausage_beef": "Chorizo de Carne Crudo",
-  "item.argentinian-recipes.cooked_sausage_beef": "Chorizo de Carne Cocido",
-
-  "item.argentinian-recipes.raw_sausage_pork": "Chorizo de Cerdo Crudo",
-  "item.argentinian-recipes.cooked_sausage_pork": "Chorizo de Cerdo Cocido",
-
-  "item.argentinian-recipes.raw_sausage_lamb": "Chorizo de Cordero Crudo",
-  "item.argentinian-recipes.cooked_sausage_lamb": "Chorizo de Cordero Cocido",
-
-  "item.argentinian-recipes.raw_sausage_chicken": "Chorizo de Pollo Crudo",
-  "item.argentinian-recipes.cooked_sausage_chicken": "Chorizo de Pollo Cocido",
+  "item.argentinian-recipes.raw_sausage": "Chorizo Crudo",
+  "item.argentinian-recipes.cooked_sausage": "Chorizo Cocido",
 
   "item.argentinian-recipes.choripan": "Choripán",
   "item.argentinian-recipes.torta_frita": "Torta Frita",
 
-  "tag.item.argentinian-recipes.cooked_sausages": "Chorizos Cocinados",
-  "tag.item.argentinian-recipes.raw_sausages": "Chorizos Crudos",
+  "tag.item.argentinian-recipes.sausage_meat": "Carne para Chorizo",
 
   "advancement.argentinian_recipes.sausages.title": "Fabricante de Chorizos",
   "advancement.argentinian_recipes.sausages.description": "Aprendiste a preparar chorizos crudos."

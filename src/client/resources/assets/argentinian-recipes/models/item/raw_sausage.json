@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "argentinian-recipes:item/cooked_sausage_chicken"
+    "layer0": "argentinian-recipes:item/raw_sausage"
   }
 }
 

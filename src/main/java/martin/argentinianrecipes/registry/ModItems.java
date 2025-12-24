@@ -22,28 +22,15 @@ public final class ModItems {
     public static final Item FAT = register("fat", food(1, 0.2f));
     public static final Item CHORIPAN = register("choripan", food(9, 0.8f));
     public static final Item TORTA_FRITA = register("torta_frita", food(6, 0.7f));
-    public static final Item RAW_SAUSAGE_BEEF = register("raw_sausage_beef", food(2, 0.2f));
-    public static final Item COOKED_SAUSAGE_BEEF = register("cooked_sausage_beef", food(8, 0.8f));
-    public static final Item RAW_SAUSAGE_PORK = register("raw_sausage_pork", food(2, 0.2f));
-    public static final Item COOKED_SAUSAGE_PORK = register("cooked_sausage_pork", food(8, 0.8f));
-    public static final Item RAW_SAUSAGE_LAMB = register("raw_sausage_lamb", food(2, 0.2f));
-    public static final Item COOKED_SAUSAGE_LAMB = register("cooked_sausage_lamb", food(8, 0.8f));
-    public static final Item RAW_SAUSAGE_CHICKEN = register("raw_sausage_chicken", food(2, 0.2f));
-    public static final Item COOKED_SAUSAGE_CHICKEN = register("cooked_sausage_chicken", food(7, 0.7f));
+    public static final Item RAW_SAUSAGE = register("raw_sausage", food(2, 0.2f));
+    public static final Item COOKED_SAUSAGE = register("cooked_sausage", food(8, 0.8f));
 
     public static void register() {
-        addToGroup(CreativeModeTabs.INGREDIENTS, FAT);
-
         addToGroup(
                 CreativeModeTabs.FOOD_AND_DRINKS,
-                RAW_SAUSAGE_BEEF,
-                COOKED_SAUSAGE_BEEF,
-                RAW_SAUSAGE_PORK,
-                COOKED_SAUSAGE_PORK,
-                RAW_SAUSAGE_LAMB,
-                COOKED_SAUSAGE_LAMB,
-                RAW_SAUSAGE_CHICKEN,
-                COOKED_SAUSAGE_CHICKEN,
+                FAT,
+                RAW_SAUSAGE,
+                COOKED_SAUSAGE,
                 CHORIPAN,
                 TORTA_FRITA
         );
