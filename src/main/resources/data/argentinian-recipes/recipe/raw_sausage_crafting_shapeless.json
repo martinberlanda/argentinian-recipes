@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "food",
+  "ingredients": [
+    "minecraft:string",
+    "#argentinian-recipes:sausage_meat",
+    "#argentinian-recipes:sausage_meat",
+    "#argentinian-recipes:sausage_meat",
+    "#argentinian-recipes:sausage_meat",
+    "argentinian-recipes:fat",
+    "argentinian-recipes:fat",
+    "argentinian-recipes:fat",
+    "argentinian-recipes:fat"
+  ],
+  "result": {
+    "id": "argentinian-recipes:raw_sausage",
+    "count": 8
+  },
+  "show_notification": true
+}

@@ -1,9 +1,9 @@
 {
   "type": "minecraft:smelting",
   "group": "food",
-  "ingredient": "argentinian-recipes:raw_sausage_beef",
+  "ingredient": "argentinian-recipes:raw_sausage",
   "result": {
-    "id": "argentinian-recipes:cooked_sausage_beef"
+    "id": "argentinian-recipes:cooked_sausage"
   },
   "experience": 0.35,
   "cookingtime": 200

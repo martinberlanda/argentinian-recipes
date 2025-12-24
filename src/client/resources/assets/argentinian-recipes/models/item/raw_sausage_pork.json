@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "argentinian-recipes:item/raw_sausage_pork"
-  }
-}
