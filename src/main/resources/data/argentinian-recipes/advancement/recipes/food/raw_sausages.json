@@ -28,10 +28,7 @@
   },
   "rewards": {
     "recipes": [
-      "argentinian-recipes:raw_sausage_beef",
-      "argentinian-recipes:raw_sausage_pork",
-      "argentinian-recipes:raw_sausage_chicken",
-      "argentinian-recipes:raw_sausage_lamb"
+      "argentinian-recipes:raw_sausage"
     ]
   }
 }

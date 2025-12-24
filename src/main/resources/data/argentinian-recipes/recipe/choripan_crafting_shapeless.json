@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "group": "food",
   "ingredients": [
-    "#argentinian-recipes:cooked_sausages",
+    "argentinian-recipes:cooked_sausage",
     "minecraft:bread"
   ],
   "result": {
