@@ -1,15 +1,18 @@
 {
   "item.argentinian-recipes.fat": "Grasa Animal",
+  "item.argentinian-recipes.dough": "Masa",
 
   "item.argentinian-recipes.raw_sausage": "Chorizo Crudo",
   "item.argentinian-recipes.cooked_sausage": "Chorizo Cocido",
-
   "item.argentinian-recipes.choripan": "Choripán",
+
   "item.argentinian-recipes.torta_frita": "Torta Frita",
+  "item.argentinian-recipes.empanada": "Empanada",
+  "item.argentinian-recipes.raw_empanada": "Empanada Cruda",
 
   "tag.item.argentinian-recipes.sausage_meat": "Carne para Chorizo",
+  "tag.item.argentinian-recipes.empanada_meat": "Carne para Empanada",
 
   "advancement.argentinian_recipes.sausages.title": "Fabricante de Chorizos",
   "advancement.argentinian_recipes.sausages.description": "Aprendiste a preparar chorizos crudos."
-
 }

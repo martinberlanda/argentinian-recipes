@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "group": "food",
+  "ingredient": "argentinian-recipes:raw_empanada",
+  "result": {
+    "id": "argentinian-recipes:empanada"
+  },
+  "experience": 0.35,
+  "cookingtime": 50
+}
