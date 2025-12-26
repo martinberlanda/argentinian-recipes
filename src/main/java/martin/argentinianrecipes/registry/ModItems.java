@@ -24,15 +24,23 @@ public final class ModItems {
     public static final Item TORTA_FRITA = register("torta_frita", food(6, 0.7f));
     public static final Item RAW_SAUSAGE = register("raw_sausage", food(2, 0.2f));
     public static final Item COOKED_SAUSAGE = register("cooked_sausage", food(8, 0.8f));
+    public static final Item DOUGH = register("dough", Item::new);
+    public static final Item RAW_EMPANADA = register("raw_empanada", food(2, 0.2f));
+    public static final Item EMPANADA = register("empanada", food(8, 0.7f));
+
 
     public static void register() {
+        addToGroup(CreativeModeTabs.INGREDIENTS,DOUGH);
+
         addToGroup(
                 CreativeModeTabs.FOOD_AND_DRINKS,
                 FAT,
                 RAW_SAUSAGE,
                 COOKED_SAUSAGE,
                 CHORIPAN,
-                TORTA_FRITA
+                TORTA_FRITA,
+                RAW_EMPANADA,
+                EMPANADA
         );
     }
 

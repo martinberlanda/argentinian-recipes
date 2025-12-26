@@ -3,11 +3,11 @@
   "group": "food",
   "pattern": [
     " F ",
-    "###"
+    " # "
   ],
   "key": {
     "F": "argentinian-recipes:fat",
-    "#": "minecraft:wheat"
+    "#": "argentinian-recipes:dough"
   },
   "result": {
     "id": "argentinian-recipes:torta_frita"
